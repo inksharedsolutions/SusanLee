@@ -1,29 +1,36 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import React from 'react';
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from '../components/layout';
+import Nav from '../components/nav';
+import Banner from '../components/banner';
+import MidBook from '../components/front-book';
+import Author from '../components/author';
+// import ParallaxBottom from "../components/parallax-bottom"
+import FeaturedLogos from '../components/mid-main';
+import { Helmet } from 'react-helmet';
 
-const IndexPage = () => (
-  <Layout>
-    <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
-  </Layout>
-)
+const IndexPage = (props) => (
+	<Layout>
+		<Helmet title="Home | Susan M. Lee" />
+		<Nav pathExt={props.path} />
+		<Banner />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<MidBook />
+		<Author />
+		{/* <ParallaxBottom /> */}
+		<FeaturedLogos />
+	</Layout>
+);
 
-export default IndexPage
+export default IndexPage;
