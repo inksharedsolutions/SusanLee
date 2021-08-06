@@ -22,20 +22,23 @@
         span {
             text-transform: capitalize;
             background: transparent;
-            padding: 7% 0%;
+            padding: 4% 2%;
+            padding-right: 150px;
             font-family: "Ganetha";
             text-align: center;
-            line-height: 21px;
-            font-size: 12.5rem;
+            line-height: 0;
+            font-size: 11rem;
 
         }
 
         label {
             font-family: "Ganetha Swash";
-            font-size: 27.5rem;
+            font-size: 15rem;
             color: white;
             margin: 0;
-            padding: 0;
+            padding: 0px 50px;
+            padding-left: 100px;
+
         }
 
     }
@@ -87,7 +90,7 @@
 
     // &:after {
         content: "";
-        background: url("../../../static/banner/banner5.jpg") no-repeat;
+        background: url("../../../static/banner/banner5.png") no-repeat;
         position: relative;
         height: 90vh;
         width: 100%;
@@ -153,15 +156,15 @@
 
     h1 {
 
-        text-transform: uppercase;
+        text-transform: capitalize;
         text-shadow: 9px 10px #000000;
-        font-size: 9.5rem;
+        font-size: 7rem;
         line-height: 1;
         font-weight: 900;
         color: #ffffff !important;
         padding: 0;
         text-align: center;
-        font-family: "optimusprincepssemibold";
+        font-family: "optimusprinceps";
 
         span {
 

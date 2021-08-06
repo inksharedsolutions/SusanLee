@@ -358,6 +358,7 @@
 
 	.wrapperMain {
 		margin: 1em 0 !important;
+		padding: 25px;
 	}
 
 	.close-mark {
@@ -659,7 +660,7 @@
 		width: auto;
 		line-height: 1;
 		z-index: 1;
-		padding-top: 5em;
+		padding-top: 2em;
 
 		h1{
 			font-size: 3.5rem;
@@ -680,13 +681,14 @@
 			span {
 				text-transform: capitalize;
 				background: transparent;
-				padding: 3% 0%;
+				padding: 2% 0%;
+				padding-right: 25px;
 				text-align: center;
 				line-height: 21px;
 				font-size: 4.5rem;
 			}
 			label{
-				font-size: 8.5rem;
+				font-size: 6.5rem;
 			}
 		}
 

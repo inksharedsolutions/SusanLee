@@ -98,7 +98,7 @@ const Footer = () => {
                             </li>
                             <li>
                                 <Link to="/about-the-book">
-                                    Books
+                                    Book
                                 </Link>
                             </li>
                             <li>
@@ -125,7 +125,7 @@ const Footer = () => {
                             src={LogoFooter}
                         />
 
-                        &#169; Copyright 2020. Stratton Press.
+                        &#169; Copyright 2021. Stratton Press.
                     </p>
 
                     <ul className="two-grid-column" id="metalinks-footer">

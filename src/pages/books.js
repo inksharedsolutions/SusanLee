@@ -24,8 +24,8 @@ const ATB = (props) => {
                 <Nav pathExt={props.path} />
 
                 <Banner
-                    spanFirst={``}
-                    contextHeading={`Books`}
+                    spanFirst={`About the`}
+                    contextHeading={`Book`}
                 />
 
                 <main className="wrapperMain">
