@@ -10,6 +10,8 @@
 @import "blog";
 
 
+*{outline: red 1px solid;}
+
 /*Fonts Declaration*/
 @font-face {
     font-family: "augusta-free";
@@ -17,6 +19,26 @@
     src: url("../../../static/font/august_free_bold.ttf") format('truetype');
     /*URL to font*/
     // font-weight: normal;
+}
+
+@font-face {
+    font-family: "Ganetha Swash";
+    src: url("../../../static/font/GanethaSwash.otf") format('truetype');
+}
+
+@font-face {
+    font-family: "Ganetha";
+    src: url("../../../static/font/Ganetha.otf") format('truetype');
+}
+
+@font-face {
+    font-family: "optimusprinceps";
+    src: url("../../../static/font/optimusprinceps.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "optimusprincepssemibold";
+    src: url("../../../static/font/optimusprincepssemibold.ttf") format('truetype');
 }
 
 

@@ -10,11 +10,10 @@
 	}
 
 	.banner-section {
-		
+		height: 50% !important;
 		&:after {
-			height: 100% ;
-			width: 100% ;
-			background-size: 1300px 800px;
+			height: 114% !important;
+			width: 100% !important;
 		}
 	}
 }
@@ -119,8 +118,8 @@
 	}
 
 	.logo-img {
-		width: 80px;
-		margin-top: 20px;
+		width: 60px;
+		margin-top: 10px;
 	}
 
 	.wrapper-auth-content {
@@ -293,6 +292,49 @@
 			}
 		}
 	}
+}
+
+@media screen and (max-width: 768px){
+	.banner-text {
+		line-height: 1;
+		position: relative;
+		width: auto;
+		line-height: 1;
+		z-index: 1;
+		padding-top: 5em;
+
+		h1{
+			font-size: 5.5rem;
+		}
+	}
+
+	.banner-section {
+		height: 50% !important;
+		// &:after {
+		// 	height: 114% !important;
+		// 	width: 100% !important;
+		// }
+	}
+	.one-grid-columns {
+		.right-sub-text {
+			text-align: center !important;
+			line-height: 0.3;
+			span {
+				text-transform: capitalize;
+				background: transparent;
+				padding: 3% 0%;
+				text-align: center;
+				line-height: 21px;
+				font-size: 8.5rem;
+			}
+			label{
+				font-size: 10.5rem;
+			}
+		}
+
+		padding-top: 2rem;
+	}
+
 }
 
 @media screen and (max-width: 650px) {
@@ -563,22 +605,21 @@
 	}
 
 	.banner-section {
-		height: 50%;
-		&:after {
-			height: 114% !important;
-			width: 19rem !important;
-		}
+		height: 50% !important;
 	}
 	.one-grid-columns {
 		.right-sub-text {
 			text-align: center !important;
 			span {
 				text-transform: capitalize;
-				background: #000000de;
-				padding: 3% 7%;
-				font-family: Fanwood Text, serif;
+				background: transparent;
+				padding: 3% 0%;
 				text-align: center;
 				line-height: 21px;
+				font-size: 4.5rem;
+			}
+			label{
+				font-size: 8.5rem;
 			}
 		}
 
@@ -618,66 +659,38 @@
 		width: auto;
 		line-height: 1;
 		z-index: 1;
-		padding-top: 20em;
+		padding-top: 5em;
+
+		h1{
+			font-size: 3.5rem;
+		}
 	}
 
 	.banner-section {
-		
-		&:after {
-			height: 150% !important;
-			width: 100% !important;
-			background-size: 750px 450px;
-
-		}
+		height: 50% !important;
+		// &:after {
+		// 	height: 114% !important;
+		// 	width: 100% !important;
+		// }
 	}
 	.one-grid-columns {
 		.right-sub-text {
 			text-align: center !important;
+			line-height: 0.3;
 			span {
 				text-transform: capitalize;
-				background: #000000de;
-				padding: 3% 7%;
-				font-family: Fanwood Text, serif;
+				background: transparent;
+				padding: 3% 0%;
 				text-align: center;
 				line-height: 21px;
+				font-size: 4.5rem;
+			}
+			label{
+				font-size: 8.5rem;
 			}
 		}
 
 		padding-top: 2rem;
-	}
-	@media screen and (max-width: 375px) {
-		.banner-section {
-					
-			&:after {
-				// height: 114% !important;
-				// width: 100% !important;
-				background-size: 780px 500PX;
-	
-			}
-		}
-	}
-	@media screen and (min-height: 667px){
-		.banner-section {
-			
-			&:after {
-				height: 150% !important;
-				// width: 100% !important;
-				background-size: 800px 500PX;
-				
-	
-			}
-		}
-	}
-	@media screen and (max-width: 320px) {
-		.banner-section {
-					
-			&:after {
-				// height: 114% !important;
-				// width: 100% !important;
-				background-size: 650px 400PX;
-	
-			}
-		}
 	}
 
 	// .banner-text {

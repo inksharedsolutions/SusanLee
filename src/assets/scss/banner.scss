@@ -17,15 +17,25 @@
     margin: 0 auto;
 
     .right-sub-text {
-        text-align: right;
-
+        text-align: center;
+        line-height: 0.3;
         span {
             text-transform: capitalize;
-            background: #000000de;
-            padding: 3% 7%;
-            font-family: Fanwood Text, serif;
+            background: transparent;
+            padding: 7% 0%;
+            font-family: "Ganetha";
             text-align: center;
             line-height: 21px;
+            font-size: 12.5rem;
+
+        }
+
+        label {
+            font-family: "Ganetha Swash";
+            font-size: 27.5rem;
+            color: white;
+            margin: 0;
+            padding: 0;
         }
 
     }
@@ -75,20 +85,19 @@
     }
 
 
-    &:after {
+    // &:after {
         content: "";
-        background: url("../../../static/banner/Banner1.png") no-repeat;
-        // background-image: linear-gradient(to bottom, #000000 0%, #353535 100%);
-        position: absolute;
-        height: 100vh;
-        // image-rendering: pixelated;
+        background: url("../../../static/banner/banner5.jpg") no-repeat;
+        position: relative;
+        height: 90vh;
         width: 100%;
         top: 0;
-        background-attachment: fixed;
         background-position: center;
-        background-size: contain;
+        background-attachment: fixed;
+        background-size: cover;
+        justify-content: center;
         
-    }
+    // }
 
 }
 
@@ -140,18 +149,19 @@
     width: 50rem;
     line-height: 1;
     z-index: 1;
-    padding-top: 20em;
+    padding-top: 10em;
 
     h1 {
 
         text-transform: uppercase;
         text-shadow: 9px 10px #000000;
-        font-size: 7.5rem;
+        font-size: 9.5rem;
         line-height: 1;
         font-weight: 900;
         color: #ffffff !important;
         padding: 0;
         text-align: center;
+        font-family: "optimusprincepssemibold";
 
         span {
 

@@ -14,18 +14,6 @@ const IndexPage = (props) => (
 		<Helmet title="Home | Susan M. Lee" />
 		<Nav pathExt={props.path} />
 		<Banner />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
 		<MidBook />
 		<Author />
 		{/* <ParallaxBottom /> */}

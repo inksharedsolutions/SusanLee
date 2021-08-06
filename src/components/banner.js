@@ -8,16 +8,17 @@ const Banner = () => {
                 <div className="container-gt">
                     <div className="one-grid-columns">
                         <div className="grid-child-elem">
-                            {/* <div className="banner-text">
+                            <div className="banner-text">
                                 <h1>
-                                    After the dust settles
+                                    MURDER MOST
                                 </h1>
                                 <p className="right-sub-text">
                                     <span>
-                                        CALIFORNIA DREAMING BOOK III
+                                        Complicated
                                    </span>
+                                   <label>l</label>
                                 </p>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>
