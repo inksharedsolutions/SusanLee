@@ -109,13 +109,13 @@ const Contact = (props) => {
 
                             <span>
                                 <h5>Phone</h5>
-                                <a href="tel:8883237009"> 888-323-7009 </a>
+                                <a href="tel:8883237009" style={{color: 'white'}}> 888-323-7009 </a>
 
                             </span>
 
                             <span>
                                 <h5>Email</h5>
-                                <a href="mailto:publish@stratton-press.com"> publish@stratton-press.com </a>
+                                <a href="mailto:publish@stratton-press.com" style={{color: 'white'}}> publish@stratton-press.com </a>
                             </span>
                         </div>
                     </div>

@@ -40,15 +40,15 @@ const ATB = (props) => {
                             Susan M. Lee was born in New Zealand.  She now lives in Northern Ontario with her Canadian husband, close to her children and grandchildren.  She worked for many years in the legal field.
                             </p>
                             <p>
-                            Murder Most Complicated is the third in a series of stand-alone fictional murder mysteries which follow the investigations of Ontario Provincial Police Detectives Powell and Hopkins. 
+                            <b style={{fontSize: '20px', color: '#c9a885'}}>Murder Most Complicated</b> is the third in a series of stand-alone fictional murder mysteries which follow the investigations of Ontario Provincial Police Detectives Powell and Hopkins. 
                             </p>
                             <p>
                             Other books in the series are titled: <br/>
 
-                            •	Death and Obsession (co-written with Reggie Caverson) <br/>
-                            •	The Malice Effect <br/> <br/>
+                            •	<b style={{fontSize: '20px', color: '#9c7667'}}>Death and Obsession</b> (co-written with Reggie Caverson) <br/>
+                            •	<b style={{fontSize: '20px', color: '#9c7667'}}>The Malice Effect</b> <br/> <br/>
                             
-                            Prior to this mystery series, Susan and Reggie co-wrote (under pseudonyms) It’s a Metaphysical World – Extraordinary Stories from Everyday Life.  <br/> (See website: metaphysical-world.com)
+                            Prior to this mystery series, Susan and Reggie co-wrote (under pseudonyms) It’s a Metaphysical World – Extraordinary Stories from Everyday Life.  <br/> (See website: <a href="http://www.metaphysical-world.com/" target="_blank" rel="noopener noreferrer">metaphysical-world.com</a>)
 
                             </p>
                             
