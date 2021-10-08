@@ -44,8 +44,8 @@ const Contact = (props) => {
                     <div className="flex-container-fx">
 
                         <p className="contactMessage">
-                            Hello! Are you having a good day? Anyway, if you have any concerns or you just want to
-                            share something, please feel free to drop me a line. I would love to hear anything from you.
+                            Dear Reader, I hope you enjoyed reading my book as much as I enjoyed writing it.
+                            Please feel free to drop me a line. I would love to hear from you.
                             </p>
 
                         <form
