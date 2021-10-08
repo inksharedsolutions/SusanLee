@@ -15,7 +15,7 @@ const MidBook = (props) => {
                         <div className="content-wraps">
 
                             <span className="italic-tag" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                                Read, and learn in various formats
+                                Available in various formats
                             </span>
 
                             <h1 className="heading--featured" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" >
